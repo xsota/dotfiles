@@ -1,4 +1,3 @@
-
 autoload -U compinit
 compinit
 
@@ -8,12 +7,13 @@ setopt pushd_ignore_dups
 setopt correct
 setopt auto_cd
 
-
+#history
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
 SAVEHIST=100000
 setopt share_history
 
+#prompt
 PROMPT='${HOST}@%{[$[32+RANDOM%6]m%}%n%{[m%}%b%% '
 SPROMPT="$fg[red]%}%{$suggest%} %B%r%b %{$fg[red]%}? 
 [(n)o, (y)es, (a)bort, (e)dit]:${reset_color}"
