@@ -1,4 +1,4 @@
-# my .zshrc
+# my dotfiles
 
 ```
 git clone https://github.com/xsota/zshrc.git ~/git/zshrc
