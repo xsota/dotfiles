@@ -1,0 +1,13 @@
+[alias]
+	st = status
+	ci = commit
+	today = "!sh -c 'git log --reverse --no-merges --branches=* --date=local --since=midnight --oneline --author=\"`git config --get user.name`\"'"
+	co = checkout
+
+[user]
+	name = sota
+	email = git@xsota.com
+[core]
+	editor = emacs -nw
+[push]
+	default = current
