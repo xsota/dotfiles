@@ -1,5 +1,3 @@
-source ~/.export_path
-
 autoload -U compinit
 compinit
 
