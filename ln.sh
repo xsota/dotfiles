@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ln -s $PWD/.zshrc ~/.zshrc
-ln -s $PWD/.screenrc ~/.screenrc
-ln -s $PWD/.emacs ~/.emacs
-ln -s $PWD/.gitconfig ~/.gitconfig
+ln -sf $PWD/.zshrc ~/.zshrc
+ln -sf $PWD/.screenrc ~/.screenrc
+ln -sf $PWD/.emacs ~/.emacs
+ln -sf $PWD/.gitconfig ~/.gitconfig
