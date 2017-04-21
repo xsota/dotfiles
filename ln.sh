@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 
 ln -s $PWD/.zshrc ~/.zshrc
 ln -s $PWD/.screenrc ~/.screenrc
