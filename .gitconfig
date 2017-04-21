@@ -9,5 +9,6 @@
 	email = git@xsota.com
 [core]
 	editor = emacs -nw
+	excludesfile = ~/.gitignore_global
 [push]
 	default = current
