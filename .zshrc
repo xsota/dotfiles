@@ -23,8 +23,6 @@ alias ll="ls -GFl"
 
 zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
 
-autoload -U compinit
-compinit
 
 #先方予測
 #autoload predict-on
