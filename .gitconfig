@@ -5,7 +5,7 @@
 	co = checkout
 
 [user]
-	name = sota
+	name = xsota
 	email = git@xsota.com
 [core]
 	editor = emacs -nw
