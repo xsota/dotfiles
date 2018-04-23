@@ -5,6 +5,8 @@
 	co = checkout
 	branch = branch --sort=authordate
 
+	# for hub command
+	pr = pull-request
 [user]
 	name = xsota
 	email = git@xsota.com
