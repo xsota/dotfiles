@@ -75,3 +75,8 @@ function rprompt-git-current-branch {
 setopt prompt_subst
 
 RPROMPT='[`rprompt-git-current-branch`%~]'
+
+
+# envrc
+export EDITOR="emacs -nw"
+eval "$(direnv hook zsh)"
