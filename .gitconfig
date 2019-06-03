@@ -5,6 +5,7 @@
 	co = checkout
 	cob = checkout -b
 	branch = branch --sort=authordate
+	unstage = reset HEAD
 
 	# for hub command
 	pr = pull-request
