@@ -3,6 +3,7 @@
 	ci = commit
 	today = "!sh -c 'git log --reverse --no-merges --branches=* --date=local --since=midnight --oneline --author=\"`git config --get user.name`\"'"
 	co = checkout
+	cob = checkout -b
 	branch = branch --sort=authordate
 
 	# for hub command
