@@ -1,8 +1,5 @@
 #!/bin/sh
 
-ln -sf $PWD/.zshrc ~/.zshrc
-ln -sf $PWD/.screenrc ~/.screenrc
-ln -sf $PWD/.emacs ~/.emacs
-ln -sf $PWD/.gitconfig ~/.gitconfig
-ln -sf $PWD/.gitignore_global ~/.gitignore_global
-ln -sf $PWD/.vimrc ~/.vimrc
+for file in `find $PWD -name '.*' -not -name '.*~' -and -not -name '.gitignore' -type f -print0 |xargs -0 -n1 basename`; do
+    ln -sf $PWD/$file $HOME/$file
+done
