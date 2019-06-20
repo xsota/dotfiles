@@ -8,7 +8,8 @@
 	unstage = reset HEAD
 
 	# for hub command
-	pr = pull-request
+	prl = pr list
+	prco = pr checkout
 [user]
 	name = xsota
 	email = git@xsota.com
