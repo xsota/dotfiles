@@ -2,7 +2,9 @@
 	st = status
 	ci = commit
 	today = "!sh -c 'git log --reverse --no-merges --branches=* --date=local --since=midnight --oneline --author=\"`git config --get user.name`\"'"
-	co = checkout
+	co = "!echo Error: Use git switch(sw) or git restore(rs) !!!!!"
+	sw = switch
+	rs = restore
 	cob = checkout -b
 	branch = branch --sort=authordate
 	unstage = reset HEAD
