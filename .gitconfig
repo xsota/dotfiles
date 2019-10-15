@@ -11,7 +11,7 @@
 
 	# for hub command
 	prl = pr list
-	prco = pr checkout
+	prsw = pr checkout
 [user]
 	name = xsota
 	email = git@xsota.com
