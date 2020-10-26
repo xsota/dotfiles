@@ -28,9 +28,6 @@ zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'c
 #autoload predict-on
 #predict-on
 
-# github command
-function git(){hub "$@"}
-
 #prompt
 PROMPT='${HOST}@%{[$[32+RANDOM%6]m%}%n%{[m%}%% '
 
