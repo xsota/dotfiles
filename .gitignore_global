@@ -2,6 +2,9 @@
 *~
 \#*\#
 
+#wsl
+*Zone.Identifier
+
 #osx
 .DS_Store
 
